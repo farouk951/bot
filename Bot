@@ -1,7 +1,7 @@
 import telebot
 import requests
-bot = telebot.TeleBot("1765724719:AAGut3vUcl7wYOdxcr6mbUIonz-TBXdzoaA")
-tok = "1765724719:AAGut3vUcl7wYOdxcr6mbUIonz-TBXdzoaA"
+bot = telebot.TeleBot("1765795314:AAHTTxszSO1X2sWBuXABbi_pBYDcPoks3uc")
+tok = "1765795314:AAHTTxszSO1X2sWBuXABbi_pBYDcPoks3uc"
 banner = requests.get("https://pastebin.com/raw/YVX1VdBp").text
 @bot.message_handler(commands=["start"])
 def start(message):
