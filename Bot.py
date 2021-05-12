@@ -11,7 +11,7 @@ def start(message):
 	
 @bot.message_handler(commands=["help"])
 def help(message):
-	bot.send_message(message.chat.id,text=f"*Welcome In Our Bot ❤\n\nDevelopers 🧑‍💻 : @FFQ_Q 🇹🇳 ، @ZIQO_0 🇲🇦 ، @SISKKO 🇹🇳\n\nCHANNEL : @CRACKWON ، @BREFAMILLY\n \nTo Get Proxies Choose : \n/http\n/socks4\n/socks5\n/socks5vanish *",parse_mode="markdown")
+	bot.send_message(message.chat.id,text=f"*Welcome In Our Bot ❤\n\nDevelopers 🧑‍💻 : @FFQ_Q 🇹🇳 ، @ZIQO_0 🇲🇦 ، @SISKKO 🇹🇳\n\nCHANNELS : @CRACKWON ، @BREFAMILLY\n \nTo Get Proxies Choose : \n/http\n/socks4\n/socks5\n/socks5vanish *",parse_mode="markdown")
 @bot.message_handler(commands=["http"])
 def http(message):
 	bot.reply_to(message,text="*Scraping...*",parse_mode="markdown")
